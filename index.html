@@ -2,22 +2,14 @@
 <html>
 <head>
     <title>Snake</title>
-    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <img src="http://wp.cleanfiles.net/wp-content/uploads/2013/06/arcade1.png">
 <h1 align="center">SNAKE</h1>
     <canvas width="600" height="400"></canvas>
     </img>
-
-</head>
-<body>
-    <canvas width="600" height="400"></canvas>
-
-</head>
-<body>
-    <canvas width="600" height="400"></canvas>
 
 		<script src="inherits.js"></script>
     <script src="keymaster.js"></script>
@@ -26,7 +18,6 @@
 		<script src="board.js"></script>
     <script>
         var canvas = document.getElementsByTagName("canvas")[0];
-
         var newGame = new this.Snake.Game(canvas,90);
         newGame.start();
     </script>
