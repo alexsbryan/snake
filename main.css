@@ -1,0 +1,16 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
+img {
+	position: absolute;
+	opacity: .12
+}
+body {
+	font-family: 'Audiowide', cursive;
+}
